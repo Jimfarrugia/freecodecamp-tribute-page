@@ -1,36 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<!-- #1: Should have an element with id="main", which contains all other elements. -->
-	 <div id="main">
-		<!-- #2: I should see an element with a corresponding id="title", which contains a string. -->
-		<header>
-			<h1 id="title">Marcus Aurelius</h1>
-		</header>
-		<!-- #3: I should see a div element with a corresponding id="img-div" -->
-		<figure id="img-div">
-			<!-- #4: Within the img-div element, I should see an img element with a corresponding id="image" -->
-			<img id="image" src="#" alt="Marcus Aurelius portrait">
-			<!-- #5: Within the img-div element, I should see an element with a corresponding id="img-caption" -->
-			<p id="img-caption">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugiat laudantium cupiditate consequatur mollitia, eum odio impedit doloribus incidunt iure placeat nesciunt iste voluptate eius illum consectetur quibusdam perspiciatis beatae!
-			</p>
-		</div>
-		<!-- #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
-		<section id="tribute-info">
-			<!-- #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. -->
-			<!-- HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank"). -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- [x] #1: Should have an element with id="main", which contains all other elements. -->
+    <div id="main">
+      <!-- [x] #2: I should see an element with a corresponding id="title", which contains a string. -->
+      <header>
+        <h1 id="title">Marcus Aurelius</h1>
+      </header>
+      <!-- [x] #3: I should see a div element with a corresponding id="img-div" -->
+      <div id="img-div">
+        <!-- [x] #4: Within the img-div element, I should see an img element with a corresponding id="image" -->
+        <img
+          id="image"
+          src="https://miro.medium.com/max/1400/0*N-mkdXa6fsvmBr_N.jpg"
+          alt="Marcus Aurelius portrait"
+        />
+        <!-- [x] #5: Within the img-div element, I should see an element with a corresponding id="img-caption" -->
+        <small id="img-caption">
+          Marcus Aurelius (Marcus Aurelius Antoninus; 26 April 121 – 17 March
+          180) was a Roman emperor from 161 to 180 and a Stoic philosopher. He
+          was the last of the rulers known as the Five Good Emperors (a term
+          coined some 13 centuries later by Niccolò Machiavelli), and the last
+          emperor of the Pax Romana, an age of relative peace and stability for
+          the Roman Empire. He served as Roman consul in 140, 145, and 161.
+        </small>
+      </div>
+      <!-- [x] #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
+      <section id="tribute-info">
+        <p>
+          Marcus was born during the reign of Hadrian to the emperor's nephew,
+          the praetor Marcus Annius Verus and the heiress Domitia Lucilla. His
+          father died when he was three, and Marcus was raised by his mother and
+          grandfather. After Hadrian's adoptive son, Aelius Caesar, died in 138,
+          the emperor adopted Marcus' uncle Antoninus Pius as his new heir. In
+          turn, Antoninus adopted Marcus and Lucius, the son of Aelius.
+        </p>
+        <p>
+          Antoninus became emperor. Now heir to the throne, Marcus studied Greek
+          and Latin under tutors such as Herodes Atticus and Marcus Cornelius
+          Fronto. He kept in close correspondence with Fronto for many years
+          afterwards. Marcus married Antoninus' daughter Faustina in 145. After
+          Antoninus died in 161, Marcus acceded to the throne alongside his
+          adoptive brother Lucius, who took the name Lucius Verus.
+        </p>
+        <p>
+          The reign of Marcus Aurelius was marked by military conflict. In the
+          East, the Roman Empire fought successfully with a revitalized Parthian
+          Empire and the rebel Kingdom of Armenia. Marcus defeated the
+          Marcomanni, Quadi, and Sarmatian Iazyges in the Marcomannic Wars;
+          however, these and other Germanic peoples began to represent a
+          troubling reality for the Empire. He modified the silver purity of the
+          Roman currency, the denarius. The persecution of Christians in the
+          Roman Empire appears to have increased during his reign, but it is
+          unknown how involved Marcus was in the persecution. The Antonine
+          Plague broke out in 165 or 166 and devastated the population of the
+          Roman Empire, causing the deaths of five million people. Lucius Verus
+          may have died from the plague in 169.
+        </p>
+        <p>
+          Unlike some of his predecessors, Marcus chose not to adopt an heir.
+          His children included Lucilla, who married Lucius, and Commodus, whose
+          succession after Marcus has become a subject of debate among both
+          contemporary and modern historians. The Column and Equestrian Statue
+          of Marcus Aurelius still stand in Rome, where they were erected in
+          celebration of his military victories. Meditations, the writings of
+          "the philosopher" – as contemporary biographers called Marcus, are a
+          significant source of the modern understanding of ancient Stoic
+          philosophy. They have been praised by fellow writers, philosophers,
+          monarchs, and politicians centuries after his death.
+        </p>
+        <!-- [ ] #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. -->
+        <!-- HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank"). -->
 
-			<!-- #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. -->
-			<!-- #9: The img element should be centered within its parent element. -->
-
-		</div>
-	</div>
-</body>
+        <!-- [ ] #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. -->
+        <!-- [ ] #9: The img element should be centered within its parent element. -->
+      </section>
+    </div>
+  </body>
 </html>
